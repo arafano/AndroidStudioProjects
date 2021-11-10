@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Screens/login.dart';
+import 'package:frontflutter/Screens/login.dart';
+import 'package:frontflutter/Screens/premiere_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +18,9 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginScreen(),
+      //home: LoginScreen(),
+      home: PremierePageScreen(),
     );
   }
 }
+
